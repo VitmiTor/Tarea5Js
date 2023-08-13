@@ -1,9 +1,10 @@
 "use strict";
 
-const {
+import {
   generarDecimalAleatorio,
   generarEnteroAleatorio,
-} = require("../utilities/randomUtilities");
+} from "../utilities/randomUtilities.js";
+
 const calcularMediaGeometrica = (a, b, c, d) => {
   return Math.sqrt(Math.sqrt(a * b * c * d));
 };

@@ -1,9 +1,9 @@
 "use strict";
 
-const {
+import {
   generarDecimalAleatorio,
   generarEnteroAleatorio,
-} = require("../utilities/randomUtilities");
+} from "../utilities/randomUtilities.js";
 
 const imc = (peso, altura) => {
   return peso / Math.pow(altura, 2);

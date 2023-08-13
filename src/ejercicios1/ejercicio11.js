@@ -1,9 +1,9 @@
 "use strict";
 
-const {
+import {
   generarDecimalAleatorio,
   generarEnteroAleatorio,
-} = require("../utilities/randomUtilities");
+} from "../utilities/randomUtilities.js";
 
 const area = (radio) => {
   return Math.PI * Math.pow(radio, 2);
